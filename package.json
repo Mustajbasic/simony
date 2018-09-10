@@ -1,0 +1,25 @@
+{
+  "name": "simony",
+  "version": "1.0.0",
+  "description": "Tool for tracking habits of spending money and visualizing the data to the user so he can optimize handling money",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./server/app.js",
+    "install-server": "cd server && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mustajbasic/simony.git"
+  },
+  "author": "Belmin Mustajbasic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mustajbasic/simony/issues"
+  },
+  "homepage": "https://github.com/Mustajbasic/simony#readme"
+}

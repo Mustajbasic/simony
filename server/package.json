@@ -1,0 +1,23 @@
+{
+  "name": "simony",
+  "version": "1.0.0",
+  "description": "Simony - Be smart about your money",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app 5000 secret-key"
+  },
+  "author": "Belmin Mustajbasic",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "jsonwebtoken": "^8.3.0",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
